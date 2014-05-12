@@ -100,3 +100,5 @@ loadUsedData<-function(){
   filteredData <- read.table(pipe(filterCommand), sep=";", na.strings="?", colClasses=classes, header=TRUE)
   filteredData
 }
+
+plot4()
